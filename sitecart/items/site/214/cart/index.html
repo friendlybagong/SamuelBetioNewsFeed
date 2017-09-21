@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="assets/css/mp/sitecart/cart.css" type="text/css" media="screen" />
+<title>Edit Items</title>
+<style>
+button, .button { background-color: #74B9EF; }
+button:hover, .button:hover { background-color: #69A8DB; }
+</style>
+<body>
+
+<div id="cart" class="cf">
+
+	<div id="cookiewarning">
+		<p class="notification error">
+			You need to enable third-party cookies to checkout.
+			<a class="ua ua-chrome" href="https://support.google.com/chrome/answer/95647?hl=en" target="_top">(more information)</a>
+			<a class="ua ua-firefox" href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_top">(more information)</a>
+			<a class="ua ua-ie" href="http://support.microsoft.com/kb/299331" target="_top">(more information)</a>
+			<a class="ua ua-opera" href="http://help.opera.com/Windows/12.10/en/cookies.html" target="_top">(more information)</a>
+			<a class="ua ua-safari" href="http://support.apple.com/kb/PH11913" target="_top">(more information)</a>
+		</p>
+	</div>
+	
+	<div id="empty">
+		<p class="notification neutral">Your cart is currently empty.</p>
+	</div>
+
+	<div id="nonempty">
+
+		<form name="form1" id="form1" action="sitecart/items/site/214/cart" enctype="multipart/form-data" method="post" class="form standard ">
+<input type="hidden" name="_csrftoken" value="50f51d254af1a74132af9ea5b0706bf3">		
+		
+		<table
+			data-endpoint-remove="/sitecart/removefromcart/site/214/cart/590aeb6941d7a66a3ba96e552d917b62"
+			data-endpoint-qty="/sitecart/editqty/site/214/cart/590aeb6941d7a66a3ba96e552d917b62"
+			data-endpoint-availability="/sitecart/availability/site/214/cart/590aeb6941d7a66a3ba96e552d917b62"
+			data-endpoint-discount="/sitecart/applydiscount/site/214/cart/590aeb6941d7a66a3ba96e552d917b62">
+					</table>
+
+		<div class="total">
+			Order Total
+			<div>
+				<span class="original">$<span class="originalcost">0.00</span></span>
+				$<span class="totalcost">0.00</span>
+			</div>
+
+		</div>
+
+			<div class="submit bcenter cf">
+				<button class="button " type="submit" name="submit1" value="submit" id="submitbutton" rel="">
+			Save And Checkout		</button>
+			</div>
+		</form>
+
+		<form id="discount">
+			<p>Got a <a href="#" class="discounttoggle">discount code</a>?</p>
+			<div class="reg discounts">
+				<div class="inputpad cf">
+					<input type="text" class="small fleft text">
+					<button type="submit" class="button muted fleft sleft">Apply</button>
+				</div>
+				<div class="ferr discounterror">Sorry, we couldn't find that discount code.</div>
+			</div>
+		</form>
+
+		<div class="separator mtop cf"></div>
+
+	</div>
+
+</div>
+
+<script src="stuff/sitecart/jq.js"></script>
+<script src="stuff/sitecart/jqui.js"></script>
+<script src="stuff/sitecart/post.js"></script>
+<script src="stuff/sitecart/cart.js"></script>
+<script>
+Post.to("*").title("View Cart").cart({"id":"590aeb6941d7a66a3ba96e552d917b62","items":[]});
+</script>
