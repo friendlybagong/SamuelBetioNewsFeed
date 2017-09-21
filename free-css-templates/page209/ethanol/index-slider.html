@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ethanol Portfolio Template - Index Default</title>
+    <title>Ethanol Portfolio Template - Index Slider Header</title>
     <meta name="description" content="Ethanol is an Agency and Personal Portfolio Template built with bootstrap 3.3.2. This is created for a cause to support my uncle's campaign. Go and Donate at - https://life.indiegogo.com/fundraisers/medical-support-for-a-filipino-overseas-worker--3/x/10058181">
     <meta name="keywords" content="portfolio, agency, bootstrap theme, mobile responsive, template, personal">
     <meta name="author" content="ThemeForces.Com">
@@ -85,21 +85,58 @@
 
     <!-- Home Section
     ================================================== -->
-    <div id="tf-home">
+    <div id="tf-home" class="slider">
         <div class="overlay"> <!-- Overlay Color -->
-            <div class="container"> <!-- container -->
-                <div class="content-heading text-center"> <!-- Input Your Home Content Here -->
-                    <h1>Websites / Branding / Interactive</h1>
-                    <p class="lead">We create beautiful, innovative and  effective handcrafted brands & website.</p>
-                    <a href="#tf-works" class="scroll goto-btn text-uppercase">View Our Works</a> <!-- Link to your portfolio section -->
-                </div><!-- End Input Your Home Content Here -->
-            </div> <!-- end container -->
+            <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/bg/slider01.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <div class="content-heading text-center"> <!-- Input Your Home Content Here -->
+                                <h1>Websites / Branding / Interactive</h1>
+                                <p class="lead">We create beautiful, innovative and  effective handcrafted brands & website.</p>
+                                <a href="#tf-works" class="scroll goto-btn text-uppercase">View Our Works</a> <!-- Link to your portfolio section -->
+                            </div><!-- End Input Your Home Content Here -->
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/bg/slider02.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <div class="content-heading text-center"> <!-- Input Your Home Content Here -->
+                                <h1>Quality / Affordability / Timely</h1>
+                                <p class="lead">We create beautiful, innovative and  effective handcrafted brands & website.</p>
+                                <a href="#tf-contact" class="scroll goto-btn text-uppercase">Hire Us Now</a> <!-- Link to your portfolio section -->
+                            </div><!-- End Input Your Home Content Here -->
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/bg/slider03.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <div class="content-heading text-center"> <!-- Input Your Home Content Here -->
+                                <h1>We Delivery Our Promise.</h1>
+                                <p class="lead">We create beautiful, innovative and  effective handcrafted brands & website.</p>
+                                <a href="#tf-about" class="scroll goto-btn text-uppercase">Learn More</a> <!-- Link to your portfolio section -->
+                            </div><!-- End Input Your Home Content Here -->
+                        </div>
+                    </div>
+                  </div>
+            </div>
         </div><!-- End Overlay Color -->
     </div>
 
     <!-- Intro Section
     ================================================== -->
-    <div id="tf-intro">
+    <div id="tf-intro" class="slider">
         <div class="container"> <!-- container -->
             <div class="row"> <!-- row -->
 

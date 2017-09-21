@@ -83,18 +83,28 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-    <!-- Home Section
+    <!-- Header/Homepage
     ================================================== -->
-    <div id="tf-home">
-        <div class="overlay"> <!-- Overlay Color -->
-            <div class="container"> <!-- container -->
-                <div class="content-heading text-center"> <!-- Input Your Home Content Here -->
-                    <h1>Websites / Branding / Interactive</h1>
-                    <p class="lead">We create beautiful, innovative and  effective handcrafted brands & website.</p>
-                    <a href="#tf-works" class="scroll goto-btn text-uppercase">View Our Works</a> <!-- Link to your portfolio section -->
-                </div><!-- End Input Your Home Content Here -->
-            </div> <!-- end container -->
-        </div><!-- End Overlay Color -->
+    <div id="tf-home" class="parallax">
+        <div class="bcg" 
+            data-center="background-position: 50% 0px;" 
+            data-top-bottom="background-position: 50% -300px;" 
+            data-bottom-top="background-position: 50% 300px;"  
+            data-anchor-target="#tf-home">
+
+            <div class="homeSlide">
+                <div class="container"> <!-- Container -->
+
+                    <div class="content-heading text-center"> <!-- Input Your Home Content Here -->
+                        <h1>Websites / Branding / Interactive</h1>
+                        <p class="lead">We create beautiful, innovative and  effective handcrafted brands & website.</p>
+                        <a href="#tf-works" class="scroll goto-btn text-uppercase">View Our Works</a> <!-- Link to your portfolio section -->
+                    </div><!-- End Input Your Home Content Here -->
+                    
+                </div> <!-- End Container -->
+            </div>
+          
+        </div> <!-- Parallax-->
     </div>
 
     <!-- Intro Section
@@ -1164,6 +1174,7 @@
     <!-- Parallax Effects -->
     <script type="text/javascript" src="js/skrollr.js"></script>
     <script type="text/javascript" src="js/imagesloaded.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
 
     <!-- Portfolio Filter -->
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
