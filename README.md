@@ -2,45 +2,6 @@
 [SamuelBetioNewsFeed](https://samuelbetio.github.io/SamuelBetioNewsFeed)
 NEWSFEED FREE CSS TEMPLATE
 
-        <a href="/about">About</a>
-      </li>
-      <li>
-        <a class="active" href="/doc">Documentation</a>
-        <ul class="expanded">
-          <li>
-            <a href="/docs">Reference</a>
-          </li>
-          <li>
-            <a href="/book">Book</a>
-          </li>
-          <li>
-            <a href="/videos">Videos</a>
-          </li>
-          <li>
-            <a href="/doc/ext">External Links</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="/blog">Blog</a>
-      </li>
-      <li>
-        <a href="/downloads">Downloads</a>
-        <ul class="">
-          <li>
-            <a href="/downloads/guis">GUI Clients</a>
-          </li>
-          <li>
-            <a href="/downloads/logos">Logos</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="/community">Community</a>
-      </li>
-    </ul>
-      <hr class="sidebar">
-        <p>
 This book is available in
   <a href="/book/en">English</a>.
 </p>
