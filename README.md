@@ -2,63 +2,6 @@
 [SamuelBetioNewsFeed](https://samuelbetio.github.io/SamuelBetioNewsFeed)
 NEWSFEED FREE CSS TEMPLATE
 
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <meta charset='utf-8'>
-  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-
-  <title>Git - Tagging</title>
-
-  <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
-  <link rel="alternate" href="/blog.rss" type="application/rss+xml" title="Git - Blog">
-
-  <link rel="stylesheet" media="screen" href="/assets/git-scm-c4d5b16a274fa90278203ca038fe3ad8.css" />
-  <script src="/assets/modernizr-10d8d48497292341fc1c4a63d06c6f61.js"></script>
-<script src="/assets/modernizr-tests-0e26a9afd9c6455a99b7b4165485c366.js"></script>
-  <!--[if (gte IE 6)&(lte IE 8)]>
-  <script src="/javascripts/selectivizr-min.js"></script>
-  <![endif]-->
-
-  <script src="https://use.typekit.com/jsq2fql.js" type="text/javascript"></script>
-  <script>
-    //<![CDATA[
-      try{Typekit.load();}catch(e){}
-    //]]>
-  </script>
-
-</head>
-
-<body id="documentation">
-
-  <div class="inner">
-    <header>
-
-  <a href="/"><img src="/images/logo@2x.png" width="110" height="46" alt="Git" /></a>
-  <span id="tagline"></span>
-  <script type="text/javascript">
-    var taglines = ["fast-version-control","everything-is-local","distributed-even-if-your-workflow-isnt","local-branching-on-the-cheap","distributed-is-the-new-centralized"];
-    var tagline = taglines[Math.floor(Math.random() * taglines.length)];
-    document.getElementById('tagline').innerHTML = '--' + tagline;
-  </script>
-  <form id="search" action="/search/results">
-    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
-  </form>
-  <div id="search-results"></div>
-
-</header>
-
-  </div> <!-- .inner -->
-
-    <div class="inner">
-      <div id="content-wrapper">
-        <aside class="sidebar">
-  <nav>
-    <ul>
-      <li>
         <a href="/about">About</a>
       </li>
       <li>
