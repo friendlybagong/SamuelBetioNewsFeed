@@ -3,7 +3,7 @@
 NEWSFEED FREE CSS TEMPLATE
 
 This book is available in
-  <a href="/book/en">English</a>.
+  <a href="/OSTemplates/">English</a>.
 </p>
 <p>
 Full translation available in
