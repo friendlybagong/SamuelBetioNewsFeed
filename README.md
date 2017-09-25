@@ -1,4 +1,4 @@
-# SamuelBetioNewsFeed 
+# Samuel Betio News Feed 
 [Samuel Betio News Feed](https://goo.gl/N92vkZ)
 NEWSFEED FREE CSS TEMPLATE
 
