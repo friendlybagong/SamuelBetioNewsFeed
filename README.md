@@ -1,5 +1,5 @@
 # SamuelBetioNewsFeed 
-[SamuelBetioNewsFeed](https://samuelbetio.github.io/SamuelBetioNewsFeed)
+[SamuelBetioNewsFeed](https://goo.gl/N92vkZ)
 NEWSFEED FREE CSS TEMPLATE
 
 This book is available in
